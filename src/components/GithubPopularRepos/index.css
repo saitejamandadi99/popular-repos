@@ -1,1 +1,17 @@
 /* Write your CSS here */
+.appContainer {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  height: auto;
+  flex-direction: column;
+}
+.languageFiltersData {
+  display: flex;
+  flex-direction: row;
+}
+.reposList {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}

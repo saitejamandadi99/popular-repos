@@ -1,1 +1,38 @@
 /* Write your CSS here */
+.repoItem {
+  list-style: none;
+  background-color: #f8f8ff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  font-family: Roboto;
+}
+.avatar {
+  height: 90px;
+  width: 90px;
+  margin: 10px;
+  background-size: cover;
+}
+
+.repoName {
+  color: red;
+  font-size: 18px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagesmall {
+  height: 20px;
+  width: 20px;
+  background-size: cover;
+  margin: 5px;
+}
